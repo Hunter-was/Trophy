@@ -1,0 +1,30 @@
+<!DOCTYPE crl>
+#showtrophy <display console.crl>
+<.crl>
+<.title>Cool Title</title>
+<favicon link="john.com">
+<dcn>This is a cool description.<dcn>
+<.preset>
+#preset1 (text):
+color: #445566;
+highlight: #778899;
+font: Courier New;
+text_align: centre;
+size: 14px;
+bold: true
+extra: italic: true; underline: true; outline: true (4px, #aabbcc);
+.
+
+#preset2 (image):
+height: 500px;
+length: 200px;
+filter: black_white
+.
+
+#preset3 (image):
+scale: 40px
+</preset>
+
+
+
+</crl>
