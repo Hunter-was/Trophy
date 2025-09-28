@@ -18,11 +18,11 @@ extra: italic: true; underline: true; outline: true (4px, #aabbcc);
 #preset2 (image):
 height: 500px;
 length: 200px;
-filter: black_white
+filter: black_white;
 .
 
 #preset3 (image):
-scale: 40px
+scale: 40px;
 </preset>
 
 
