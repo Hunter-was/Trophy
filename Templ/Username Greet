@@ -1,4 +1,4 @@
-#showtrophy <import plug> <import tmpl>
+#showtrophy <import plug> <active tmpl>
 imp plugin {
 	Geolocation;
 	}
