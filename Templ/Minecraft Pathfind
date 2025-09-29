@@ -1,0 +1,14 @@
+#showtrophy <active templ> <import plug>
+import plugin {
+Objective;
+}
+
+	inv int_value("Pathfind_Level")
+    
+assign int_value("Pathfind_Level") to block("Magma_Block"): 16
+assign int_value("Pathfind_Level") to block("Lime_Green_Terracotta"): 1
+assign int_value("Pathfind_Level") to block("Honey_Block"): 8
+assign int_value("Pathfind_Level") to block_state("ajacent_to_magma_block"): 16
+
+	fnd f, Villiger_Pathfind(); {
+    	reach itp("")
