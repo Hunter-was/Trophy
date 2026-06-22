@@ -1,0 +1,14 @@
+#showtrophy <import plug> <active tmpl> <filename = "Voting?.tmpl">
+imp plugin {
+	Chronological;
+	}
+    
+    <.templ>
+    
+Print("When were you born? (ex: 1/1/2000)"), input: "DOB"
+
+  fnd, Main_vote_function(); {
+        Reach plug:
+          chronological<dob>
+        print<chrono>("you are <yrsago> years old")
+    </templ>
